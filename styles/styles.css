@@ -44,7 +44,8 @@ main a {
     color: var(--whitish-text-color);
 }
 
-aside { 
+aside {
+    position: relative;
     width: 20rem;
     text-align: center;
 }
