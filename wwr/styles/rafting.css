@@ -1,7 +1,4 @@
 :root {
-    margin: 0;
-    border: 0;
-    padding: 0;
     box-sizing: border-box;
     --primary-color: #2d5200;
     --primary-color-90: rgb(45 82 0 / 90%);
