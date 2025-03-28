@@ -141,20 +141,28 @@ footer p {
 }
 
 .history {
+    margin-top: 0;
+    border-top: 0;
     display: grid;
-    grid-template: auto auto / repeat(3, 1fr);
+    grid-template-rows: auto max-content;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
 }
 
 .history h2 {
     grid-column: 1 / 4;
-    justify-content: center;
-    align-items: center;
 }
 
 .history img {
-    height: 40%;
-    /* align-self: center; */
+    height: clamp(7rem, 15vw, 50rem);
+    width: auto;
     justify-self: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.history p {
+    font-size: clamp(0.5rem, 2vw, 1.6rem);
 }
 
 .sociallinks {
