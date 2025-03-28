@@ -13,6 +13,7 @@ body {
     border: 0;
     padding: 0;
     font-family: "Noto Sans", sans-serif;
+    background-color: var(--accent2-color);
 }
 
 main {
@@ -158,12 +159,16 @@ footer p {
     width: auto;
     justify-self: center;
     padding: 5px;
-    border-radius: 10px;
 }
 
 .history p {
     font-size: clamp(0.5rem, 2vw, 1.6rem);
 }
+
+/* .adventure {
+    
+
+} */
 
 .sociallinks {
     display: flex;
