@@ -109,19 +109,21 @@ figcaption {
 /* Footer rules */
 
 footer {
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 10px 30px;
     background-color: var(--primary-color-90);
 }
 
 footer p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     margin: 0;
-    padding: 0;
     text-align: center;
     color: var(--accent2-color);
-    flex: 1;
 }
 
 /* Class Selectors */
