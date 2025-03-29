@@ -110,14 +110,18 @@ figcaption {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
     background-color: var(--primary-color-90);
 }
 
 footer p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
     color: var(--accent2-color);
+    flex: 1;
 }
 
 /* Class Selectors */
@@ -223,6 +227,7 @@ footer p {
 /* Social links rules */
 
 .sociallinks {
+    display: flex;
     gap: 10px;
 }
 
