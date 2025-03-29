@@ -238,6 +238,7 @@ footer p {
 }
 
 .sociallinks a img {
-    width: 35px;
+    border-radius: clamp(6px, 1vw, 10px);
+    width: clamp(1.7rem, 2vw, 2rem);
     height: auto;
 }
