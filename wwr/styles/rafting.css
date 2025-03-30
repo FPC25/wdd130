@@ -6,7 +6,7 @@
     --primary-color-30: rgb(45 82 0 / 30%);
     --secondary-color:#ebc77e;
     --accent1-color: #6a320c;
-    --accent1-color-20: rgb(106 50 12 / 90%);
+    --accent1-color-90: rgb(106 50 12 / 90%);
     --accent2-color: #f5f5f5;
 }
 
@@ -104,7 +104,7 @@ section {
     row-gap: 5px;
     margin: clamp(1.2rem, 2.5rem, 4rem) 0;
     padding: 15px;
-    background-color: var(--accent1-color-20);
+    background-color: var(--accent1-color-90);
 }
 
 figcaption {
