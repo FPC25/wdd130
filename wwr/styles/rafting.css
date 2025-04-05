@@ -211,6 +211,10 @@ text fieldset {
     color: var(--secondary-color);
 }
 
+form fieldset legend {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
 button[type="submit"] {
     padding: 0.75rem;
     background-color: var(--primary-color-70);
