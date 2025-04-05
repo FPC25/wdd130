@@ -41,7 +41,7 @@ h1 {
 
 h2 {
     font-family: "Acme", sans-serif;
-    font-style: bold;
+    font-style: normal;
     font-size: clamp(1.5rem, 7vw, 3rem);
     color: var(--secondary-color);
     text-shadow: 3px 3px black;
