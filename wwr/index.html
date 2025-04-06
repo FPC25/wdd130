@@ -25,14 +25,11 @@
     <main>
         <div class="hero">
             <h1>Sunrise Rafting</h1>
-            <img src="./images/hero_transparency_1024.webp" alt="Banner showing a happy group rafting">
-            <article> 
-                <button onclick="window.location.href='./trips.html'" class="cta-button">Explore Trips</button>
-            </article>
+            <img src="./images/hero_transparency_1024.webp" alt="Banner showing a happy group rafting"> 
+            <button onclick="window.location.href='./trips.html'" class="cta-button">Explore Trips</button>
         </div>
 
-        <section class="presenting">
-            <h2>Why Choose Sunrise Rafting?</h2>
+        <div class="presenting">
             <figure>
                 <img src="./images/adventure1.webp" alt="Rafting adventure image 1">
                 <figcaption>Exciting Rapids</figcaption>
@@ -42,24 +39,33 @@
                 <figcaption>Scenic Views</figcaption>
             </figure>
             <figure>
-                <img src="./images/adventure3.webp" alt="Rafting adventure image 3">
+                <img src="./images/rafting59_600.webp" alt="Rafting adventure image 3">
                 <figcaption>Expert Guides</figcaption>
             </figure>
-        </section>
+        </div>
 
-        <section class="contact-form">
-            <h2>Stay Updated</h2>
-            <form action="#" method="POST">
-                <fieldset>
-                    <legend>Sign Up for Our Newsletter</legend>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </fieldset>
-                <button type="submit">Subscribe</button>
-            </form>
-        </section>
+        <div class="container">
+            <div class="image-box">
+                <img src="./images/form_decoration.webp" alt="row image">
+            </div>
+            <div class="form-box">
+                <h2>Stay Updated</h2>
+                <form>
+                    <fieldset>
+                        <legend>Sign Up for Our Newsletter</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+    
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </fieldset>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer>
