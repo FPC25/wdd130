@@ -545,8 +545,8 @@ aside {
 
 .level {
     display: grid;
-    grid-template-columns: 1fr 2fr; /* Two columns */
-    grid-template-rows: auto 1fr; /* Two rows, second row takes remaining space */
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr; 
     gap: 20px;
     background-color: var(--accent1-color-90);
     padding: 20px;
@@ -584,7 +584,6 @@ aside {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Right image layout */
 .img-right {
     grid-template-columns: 2fr 1fr;
 }
@@ -606,37 +605,37 @@ aside {
     border-collapse: collapse;
     border-spacing: 0;
     margin: 0px auto;
-    width: 90%; /* Make table responsive */
-    max-width: 1200px; /* Maximum width */
+    width: 90%; 
+    max-width: 1200px; 
 }
 
 .tg th {
     border-color: var(--secondary-color);
     border-style: solid;
     border-width: 1px;
-    font-size: clamp(1rem, 2vw, 1.5rem); /* Responsive font size */
+    font-size: clamp(1rem, 2vw, 1.5rem); 
     font-weight: bold;
     overflow: hidden;
-    padding: clamp(10px, 2vw, 20px); /* Responsive padding */
+    padding: clamp(10px, 2vw, 20px);
     word-break: normal;
     background-color: var(--secondary-color);
     border-color: inherit;
     text-align: center;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .tg td {
     border-color: black;
     border-style: solid;
     border-width: 1px;
-    font-size: clamp(0.9rem, 1.8vw, 1.3rem); /* Responsive font size */
+    font-size: clamp(0.9rem, 1.8vw, 1.3rem); 
     overflow: hidden;
-    padding: clamp(10px, 2vw, 20px); /* Responsive padding */
+    padding: clamp(10px, 2vw, 20px); 
     word-break: normal;
     background-color: var(--primary-color);
     color: var(--accent2-color);
     text-align: center;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 /* Footer Styles */
