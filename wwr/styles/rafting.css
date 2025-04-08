@@ -538,7 +538,7 @@ aside {
     justify-content: center;
     min-height: 400px;
     height: auto;
-    margin: 10px;
+    margin: 10px; 
 }
 
 /* Level description sections */
@@ -585,19 +585,19 @@ aside {
 }
 
 /* Right image layout */
-#img-right {
+.img-right {
     grid-template-columns: 2fr 1fr;
 }
 
-#img-right img {
+.img-right img {
     grid-column: 2;
 }
 
-#img-right h2 {
+.img-right h2 {
     grid-column: 1;
 }
 
-#img-right p {
+.img-right p {
     grid-column: 1;
 }
 
