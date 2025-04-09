@@ -610,7 +610,7 @@ aside {
 }
 
 .tg th {
-    border-color: var(--secondary-color);
+    border-color: black;
     border-style: solid;
     border-width: 1px;
     font-size: clamp(1rem, 2vw, 1.5rem); 
@@ -618,10 +618,11 @@ aside {
     overflow: hidden;
     padding: clamp(10px, 2vw, 20px);
     word-break: normal;
-    background-color: var(--secondary-color);
     border-color: inherit;
     text-align: center;
     vertical-align: middle;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 .tg td {
@@ -632,11 +633,37 @@ aside {
     overflow: hidden;
     padding: clamp(10px, 2vw, 20px); 
     word-break: normal;
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    background-color: var(--secondary-color);
     text-align: center;
     vertical-align: middle;
 }
+
+.trips-info a {
+    text-decoration: none;
+}
+
+.trips-info button {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    width: auto;
+    max-width: clamp(10rem, 10vw, 15rem);
+    justify-self: center;
+    align-self: center;
+}
+
+.trips-info button:hover {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+}
+
+
 
 /* Footer Styles */
 footer {
