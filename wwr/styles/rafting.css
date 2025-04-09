@@ -637,13 +637,9 @@ aside {
     vertical-align: middle;
 }
 
-.trips-info a {
-    text-decoration: none;
-    color: var(--accent1-color);
-}
-
 .trips-info button {
     background-color: var(--secondary-color);
+    color: var(--accent1-color);
     padding: 10px 15px;
     margin-top: 20px;
     border-radius: 10px;
