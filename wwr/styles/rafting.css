@@ -520,15 +520,18 @@ form fieldset legend {
 
 button[type="submit"] {
     padding: 0.75rem;
-    color: var(--accent2-color);
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
+    transition: transform 0.3s ease;
 }
 
 button[type="submit"]:hover {
     background-color: var(--primary-color-70);
+    color: var(--accent2-color);
 }
 
 aside {
@@ -610,9 +613,7 @@ aside {
 }
 
 .tg th {
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
+    border: 1px solid black;
     font-size: clamp(1rem, 2vw, 1.5rem); 
     font-weight: bold;
     overflow: hidden;
@@ -626,9 +627,7 @@ aside {
 }
 
 .tg td {
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
+    border: 1px solid black;
     font-size: clamp(0.9rem, 1.8vw, 1.3rem); 
     overflow: hidden;
     padding: clamp(10px, 2vw, 20px); 
@@ -640,11 +639,11 @@ aside {
 
 .trips-info a {
     text-decoration: none;
+    color: var(--accent1-color);
 }
 
 .trips-info button {
     background-color: var(--secondary-color);
-    color: var(--accent1-color);
     padding: 10px 15px;
     margin-top: 20px;
     border-radius: 10px;
