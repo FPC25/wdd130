@@ -550,8 +550,13 @@ aside {
 }
 
 /* trips page title */
-.level-title {
-    background-color: transparent;
+.level-title h1 {
+    background-color: var(--accent1-color-90);
+    text-shadow: 3px 3px black;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 0.5em 1em;
 }
 
 /* Level description sections */
