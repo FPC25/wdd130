@@ -416,6 +416,7 @@ section {
 
 .contact-info h1{
     background-color: transparent;
+    text-shadow: 3px 3px black;
 }
 
 .info-content {
@@ -549,7 +550,7 @@ aside {
 }
 
 /* trips page title */
-.levels {
+div .level-title {
     background-color: transparent;
 }
 
