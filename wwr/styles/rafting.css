@@ -548,6 +548,11 @@ aside {
     margin: 10px; 
 }
 
+/* trips page title */
+div legend {
+    background-color: black;
+}
+
 /* Level description sections */
 
 .level {
