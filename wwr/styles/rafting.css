@@ -414,6 +414,10 @@ section {
     margin: 0 auto;
 }
 
+.contact-info h1{
+    background-color: transparent;
+}
+
 .info-content {
     display: flex;
     flex-wrap: wrap;
