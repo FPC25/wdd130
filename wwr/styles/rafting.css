@@ -549,8 +549,8 @@ aside {
 }
 
 /* trips page title */
-div legend {
-    background-color: black;
+.levels {
+    background-color: transparent;
 }
 
 /* Level description sections */
